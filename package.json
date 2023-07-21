@@ -1,0 +1,15 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build -i src/input.css -o src/output.css -w"
+  },
+  "keywords": ["Muhammad Zahir", "portofolio", "frontend developer"],
+  "author": "Muhammad Zahir",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

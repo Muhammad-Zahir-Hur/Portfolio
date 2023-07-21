@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .link{
+        @apply font-bold text-lg  md:px-2 px-1 rounded text-white bg-primary; 
+    }
+    .sample-image{
+        @apply object-center object-cover rounded relative; 
+    }
+
+    .smpl-txt{
+        @apply relative bottom-0 text-white bg-darkish text-lg p-2;
+    }
+
+    .smpl{
+        @apply  relative bottom-0 opacity-100  transition duration-300
+    }
+}
