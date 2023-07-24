@@ -6,10 +6,15 @@
   "scripts": {
     "build": "npx tailwindcss build -i src/input.css -o src/output.css -w"
   },
-  "keywords": ["Muhammad Zahir", "portofolio", "frontend developer"],
+  "keywords": [
+    "Muhammad Zahir",
+    "portofolio",
+    "frontend developer"
+  ],
   "author": "Muhammad Zahir",
   "license": "ISC",
   "dependencies": {
+    "swiper": "^10.0.4",
     "tailwindcss": "^3.0.23"
   }
 }
